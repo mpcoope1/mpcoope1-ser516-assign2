@@ -32,11 +32,11 @@ public class GreeterTest {
     // Hint: Try writing a test for greetLoud() or greetFormal()
     // Example:
     //
-    // @Test
-    // void testGreetFormal() {
-    //     String result = greeter.greetFormal("Alice");
-    //     System.out.println("testGreetFormal -> Expected: 'Good day, Alice.'  Got: '" + result + "'");
-    //     assertEquals("Good day, Alice.", result);
-    // }
+     @Test
+     void testGreetFormal() {
+         String result = greeter.greetFormal("Alice");
+         System.out.println("testGreetFormal -> Expected: 'Good day, Alice.'  Got: '" + result + "'");
+         assertEquals("Good day, Alice.", result);
+     }
     // -------------------------------------------------------
 }
