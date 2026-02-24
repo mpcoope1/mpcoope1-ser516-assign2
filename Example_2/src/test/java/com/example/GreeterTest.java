@@ -20,6 +20,12 @@ public class GreeterTest {
         assertEquals("Hello, Alice!", result);
     }
 
+    @Test
+    void testGreetLoud() {
+        String result = greeter.greetLoud("Alice");
+        System.out.println("testGreet -> Expected: 'HELLO, ALICE!'  Got: '" + result + "'");
+        assertEquals("HELLO, ALICE!", result);
+    }
     // -------------------------------------------------------
     // Optional: Add your own tests below!
     // -------------------------------------------------------
